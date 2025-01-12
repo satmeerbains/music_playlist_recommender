@@ -1,10 +1,8 @@
-
-# **Playlist Recommender**
+# Playlist Recommender
 ### How many times were you playing music around friends/family and don't know which song to play next maintains the same vibe and energy? The goal of this model is to create a machine learning model that recommends a list of songs that best fit any song you input into.
 
 # 1. Importing libraries
 #### Let's first load all of the libraries necessary
-#%%
 import os
 import warnings
 warnings.simplefilter("ignore", UserWarning)
