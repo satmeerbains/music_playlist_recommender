@@ -51,6 +51,7 @@ def df_explore(df):
 print(df_main.shape)
 
 df_explore(df_main)
+
 #%% md
 ## 3.2 Data Cleanup
 #### Since there is very little missing data we can omit those rows
