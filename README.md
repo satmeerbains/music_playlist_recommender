@@ -35,3 +35,8 @@ Creating a few functions that will be used in the final model
 * Getting song audio features (pulling the audio features for a given track needed to eventually be used to recommend songs)
 * Getting song audio information (pulling basic information such as track name, year, etc)
 * Generating the median for each audio feature (n order to recommend a list of songs based on a given one, we need to use audio features. The best way to do this is to caculate the median of the value for each feature)
+* Creating a dictionary that will be the input in the final model
+### Results
+The model has three arguments: artist_name, track_name, and year, after inputting this information for any desired song the output is a dataframe of 15 tracks that are recommended as sounding similar. The dataframe's columns are also artist_name, track_name, and year
+
+### Conclusion
