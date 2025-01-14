@@ -54,4 +54,5 @@ Creating a few functions that will be used in the final model
 The model has three arguments: artist_name, track_name, and year, after inputting this information for any desired song the output is a dataframe of 15 tracks that are recommended as sounding similar. The dataframe's columns are also artist_name, track_name, and year
 
 ### Conclusion
-
+This goal of this project was to build a recommendation model for music to play after a a particular song or for a playlist based on the K-Nearest Neighbors (KNN) clustering algorithm.
+that groups songs via audio features such as tempo, valence etc. and genres. Being that datapoints were clustered relatively well by audio features and genres the model was able to accurately predict songs based on a singular given song.  
